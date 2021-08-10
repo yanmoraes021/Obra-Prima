@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: light;
+    src: url(../fontes/ShadowsIntoLight-Regular.ttf) format('opentype');
+    font-weight: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --font-light: 'light', 'cursive';
+}
+
+body {
+    min-width: 300px;
+    max-width: 1600px;
+    color: rgb(0, 255, 157);
+    margin: auto;
+    padding: 0px;
+}
+
+nav {
+    font-family: var(--font-light);
+    font-size: 25px;
+    padding: 5px 5px;
+    font-weight: bolder;
+    
+    
+}
+nav a {
+    font-size: 25px;
+    margin-top: 0px;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 255, 157);
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(1, 156, 97);
+}
+nav audio {
+    padding: 10px 10px;
+    margin: 40px 0px 0px 120px;
+}
+
+header {
+        background-image: url('../img/cinema-01.jpg');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        font-family: var(--font-light);
+        color: rgb(0, 255, 157);
+        margin: auto;
+        
+}
+header h1 {
+    text-align: center;
+    font-size: 120px;
+    margin: 10% 0% 0%;
+    font-weight: bolder;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    padding: 0% 0% 13%;
+    
+}
+main {
+
+    background-color: black;
+    font-family: var(--font-light);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    
+}
+main h1 {
+    font-weight: bolder;
+    font-size: 60px;
+    margin: -8px;
+    padding: 30px 0px;
+}
+main li {
+    font-size: 22px;
+    text-align: center;
+    padding: 0px 80px;
+    list-style: none;
+    
+}
+
+main p {
+    font-size: 20px;
+    padding: 0px 0px;
+}
+main  img {
+    border-radius: 0%;
+}
+main .row {
+    padding: 12px 80px;
+    
+}
+main .album {
+    background-image: url('../img/estudio.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: rgb(0, 255, 157);
+}
+main .card-text {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+
+footer {
+    
+    text-align: center;
+    background-color: black;
+    background-attachment: fixed;
+    color: white;
+    font-size: 11px;
+    margin: 0px 0px;
+
+
+    
+}
+footer a {
+    font-weight: bold;
+    color: rgb(0, 255, 157);
+}    
