@@ -16,9 +16,13 @@
 }
 
 body {
+    background-image: url('../img/cinema-01.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
     min-width: 300px;
-    max-width: 1600px;
-    color: rgb(0, 255, 157);
+    max-width: 1400px;
+    color: #B8F6F3;
     margin: auto;
     padding: 0px;
 }
@@ -37,11 +41,11 @@ nav a {
     padding: 0px 50px 0px 50px;
     text-align: center;
     text-decoration: none;
-    color: rgb(0, 255, 157);
+    color: #B8F6F3;
 }
 nav a:hover {
     text-decoration: underline;
-    color: rgb(1, 156, 97);
+    color: #9FD4C2;
 }
 nav audio {
     padding: 10px 10px;
@@ -49,12 +53,9 @@ nav audio {
 }
 
 header {
-        background-image: url('../img/cinema-01.jpg');
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-size: cover;
+
         font-family: var(--font-light);
-        color: rgb(0, 255, 157);
+        color: #B8F6F3;
         margin: auto;
         
 }
@@ -111,7 +112,7 @@ main .album {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    color: rgb(0, 255, 157);
+    color: #B8F6F3;
 }
 main .card-text {
     color: black;
